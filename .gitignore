@@ -1,0 +1,8 @@
+# Build directories
+build
+
+# Proprietary RealityAI generated model
+# Expected to be generated and put in place
+libs/realityai/libRealityAI.a
+common/edb_rai_model.h
+

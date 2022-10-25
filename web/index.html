@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            setInterval(function() {
+                var r = Math.random();
+                var iImage = document.getElementById('image');
+                iImage.src = 'img.png?r=' + r;
+            }, 100);
+        </script>
+    </head>
+    <body style="background-color: light-grey;">
+        <img id="image" src="img.png" alt=""/>
+    </body>
+</html>

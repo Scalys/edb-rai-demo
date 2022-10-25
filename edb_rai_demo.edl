@@ -1,0 +1,16 @@
+// Copyright (c) Open Enclave SDK contributors.
+// Licensed under the MIT License.
+
+enclave {
+    from "openenclave/edl/syscall.edl" import *;
+
+    trusted {
+        public int ecall_rai([in, count=sample_size] float *sample, size_t sample_size);
+        public int ecall_init();
+    };
+
+    untrusted {
+        int ocall_log([in, string] char *msg);
+        int ocall_class_result(int cl);
+    };
+};

@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            setInterval(function() {
+                var r = Math.random();
+                var iUser = document.getElementById('user');
+                var iPhoto = document.getElementById('photo');
+                var iKey = document.getElementById('key');
+                var iDoor = document.getElementById('door');
+                iLogo.src = 'class.png?r=' + r;
+                iPhoto.src = '?r=' + r;
+                iKey.src = '?r=' + r;
+                iDoor.src = 'label.png?r=' + r;
+            }, 100);
+        </script>
+    </head>
+    <body style="background-color: light-grey;">
+        <table width="100%" border="0">
+            <tr>
+                <td align="center" colspan="2"><br/><br/><img id="user" src="user.png" alt="" /><br/></td>
+                <td align="center" rowspan="2"><br/><br/><img id="door" src="door.png" alt="" /><br/><br/></td>
+            </tr>
+            <tr>
+                <td align="center"><br/><img id="photo" src="photo.png" alt="" /><br/><br/></td>
+                <td align="center"><br/><img id="key" src="key.png" alt="" /><br/><br/></td>
+            </tr>
+        </table>
+    </body>
+</html>
