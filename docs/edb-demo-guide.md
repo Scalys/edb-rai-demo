@@ -127,7 +127,7 @@ To build the EDB RealityAI demo trusted application:
 
 ### Confidential Package assembly
 
-To enclose the resulting Trusted Application into a Confidential Package (.cpk) use the cpk-tool. Instructions on where to obtain it can be found [here](github.com/Scalys/ConfidentialPackageTools/).
+To enclose the resulting Trusted Application into a Confidential Package (.cpk) use the cpk-tool. Instructions on where to obtain it can be found [here](https://github.com/EnclaveDeviceBlueprint/ConfidentialPackageTools/).
 This tool allows to build a Confidential Package in several ways. But for the most classical approach the http Wrap Key approach should be used. The command call in this case would look like this:
 
 ```

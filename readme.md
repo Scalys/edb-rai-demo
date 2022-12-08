@@ -106,7 +106,7 @@ For a one-button Azure cloud infrastructure deployment see this [page](https://g
 
 # Confidential Package Management
 
-For information on installing and using Confidential Packages see this [page](https://github.com/Scalys/ConfidentialPackageTools).
+For information on installing and using Confidential Packages see this [page](https://github.com/EnclaveDeviceBlueprint/ConfidentialPackageTools).
 
 
 # Enclave Device Blueprint reference implementation
